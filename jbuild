@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(executable
+  ((name depext)
+   (public_name opam-depext)
+   (libraries (cmdliner unix))
+  ))

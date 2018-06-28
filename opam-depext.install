@@ -1,1 +1,12 @@
-bin: [ "opam-depext" ]
+lib: [
+  "_build/install/default/lib/opam-depext/META" {"META"}
+  "_build/install/default/lib/opam-depext/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/opam-depext" {"opam-depext"}
+]
+doc: [
+  "_build/install/default/doc/opam-depext/README.md"
+  "_build/install/default/doc/opam-depext/LICENSE"
+  "_build/install/default/doc/opam-depext/CHANGES"
+]
